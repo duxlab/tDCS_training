@@ -5,7 +5,7 @@ Task and analysis scripts
 
 This repository contains a series of cognitive task scripts that were executed on Mac minicomputers (2014 model; 2.8 GHz Intel Core i5, OSX High Sierra v 10.13.6) and displayed on 24-inch ASUS VG248 monitors with a 144Hz refresh rate.
 
-All of the tasks were run with MATLAB 2016b (The MathWorks, Inc., Matick, MA) using custom code and Psychtoolbox87,88. For more details on Psychtoolbox, please visit [http://psychtoolbox.org](http://psychtoolbox.org).
+All of the tasks were run with MATLAB 2016b (The MathWorks, Inc., Matick, MA) using custom code and Psychtoolbox. For more details on Psychtoolbox, please visit [http://psychtoolbox.org](http://psychtoolbox.org).
 
 ## Compatibility
 
@@ -16,9 +16,15 @@ These scripts have been designed to work with MATLAB 2016b. However, they should
 To run the cognitive task scripts, follow the instructions below:
 
 1. Run the batch script, entering the participant number when prompted.
-2. The script will then execute all nine tasks in sequence. This process takes approximately two hours to complete.
+2. If session number is >1, you will be prompted to input values for session 1 for:
+    -Tracking_Thresholding_Value
+    -Detection_Threshold_Value 
+    -RSVP_Speed
+   These values can be found within text files the task folder for each participant. This begins these tasks at the relevant difficulty levels for each participant.
+3. The script will then execute all nine tasks in sequence. This process takes approximately two hours to complete.
 
-Please note that if a task does not start automatically, press the 'P' key to initiate it.
+Please note that if a task does not start/progress automatically, press the 'P' key to initiate it.
+Some tasks have audio, please check your volume.
 
 ## Equipment
 
